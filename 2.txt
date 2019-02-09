@@ -1,1 +1,8 @@
-ddd
+class Student{
+   constructor(name){
+    this.name=name
+   }
+   hello(){
+    console.log("name is: "+this.name);
+   }
+}
